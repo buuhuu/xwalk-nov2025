@@ -161,6 +161,54 @@
     ]
   },
   {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Classes",
+        "options": [
+          {
+            "name": "Variant A",
+            "value": "variant-a"
+          },
+          {
+            "name": "Variant B",
+            "value": "variant-b"
+          },
+          {
+            "name": "Variant C",
+            "value": "variant-c"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "name": "classes_fullWidth",
+        "label": "Full Width"
+      },
+      {
+        "component": "container",
+        "name": "slides_slide",
+        "label": "Slides",
+        "multi": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "image",
+            "label": "Image",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "name": "imageAlt",
+            "label": "Alt"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -212,6 +260,68 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "multi",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Classes",
+        "options": [
+          {
+            "name": "Variant A",
+            "value": "variant-a"
+          },
+          {
+            "name": "Variant B",
+            "value": "variant-b"
+          },
+          {
+            "name": "Variant C",
+            "value": "variant-c"
+          }
+        ]
+      },
+      {
+        "component": "boolean",
+        "name": "classes_fullWidth",
+        "label": "Full Width"
+      },
+      {
+        "component": "container",
+        "name": "content_composite-multi-field",
+        "label": "Content",
+        "fields": [
+          {
+            "component": "text",
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "component": "select",
+            "name": "titleType",
+            "label": "Title Type",
+            "options": [
+              {
+                "name": "h3",
+                "value": "h3"
+              },
+              {
+                "name": "h4",
+                "value": "h4"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "labels",
+            "label": "Labels",
+            "multi": true
+          }
+        ]
       }
     ]
   }
