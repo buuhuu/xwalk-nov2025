@@ -294,6 +294,7 @@
         "component": "container",
         "name": "content_composite-multi-field",
         "label": "Content",
+        "multi": true,
         "fields": [
           {
             "component": "text",
