@@ -31,7 +31,14 @@
   {
     "id": "cards",
     "components": [
-      "card"
+      "card",
+      "text-card"
+    ]
+  },
+  {
+    "id": "restricted-cards",
+    "components": [
+      "text-card"
     ]
   },
   {

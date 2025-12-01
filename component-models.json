@@ -206,6 +206,28 @@
     ]
   },
   {
+    "id": "text-card",
+    "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
