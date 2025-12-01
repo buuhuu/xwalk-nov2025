@@ -18,6 +18,11 @@
       "id": "image",
       "fields": [
         {
+          "component": "text",
+          "name": "aueLabel",
+          "label": "Label"
+        },
+        {
           "component": "reference",
           "name": "image",
           "label": "Image",

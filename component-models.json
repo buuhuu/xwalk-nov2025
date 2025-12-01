@@ -27,6 +27,11 @@
     "id": "image",
     "fields": [
       {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
+      {
         "component": "reference",
         "name": "image",
         "label": "Image",
@@ -42,6 +47,11 @@
   {
     "id": "title",
     "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
       {
         "component": "text",
         "name": "title",
@@ -81,8 +91,28 @@
     ]
   },
   {
+    "id": "text",
+    "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Text"
+      }
+    ]
+  },
+  {
     "id": "button",
     "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
       {
         "component": "aem-content",
         "name": "link",
@@ -124,8 +154,8 @@
     "fields": [
       {
         "component": "text",
-        "name": "name",
-        "label": "Section Name",
+        "name": "aueLabel",
+        "label": "Label",
         "description": "The label shown for this section in the Content Tree"
       },
       {

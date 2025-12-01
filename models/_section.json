@@ -13,6 +13,21 @@
           }
         }
       }
+    },
+    {
+      "title": "Restricted Section",
+      "id": "restricted-section",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/section/v1/section",
+            "template": {
+              "model": "section",
+              "filter": "restricted-section"
+            }
+          }
+        }
+      }
     }
   ],
   "models": [
@@ -21,8 +36,8 @@
       "fields": [
         {
           "component": "text",
-          "name": "name",
-          "label": "Section Name",
+          "name": "aueLabel",
+          "label": "Label",
           "description": "The label shown for this section in the Content Tree"
         },
         {
@@ -51,6 +66,15 @@
         "cards",
         "columns",
         "fragment"
+      ]
+    },
+    {
+      "id": "restricted-section",
+      "components": [
+        "text",
+        "button",
+        "title",
+        "columns"
       ]
     }
   ]

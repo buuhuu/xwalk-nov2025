@@ -20,6 +20,11 @@
       "id": "button",
       "fields": [
         {
+          "component": "text",
+          "name": "aueLabel",
+          "label": "Label"
+        },
+        {
           "component": "aem-content",
           "name": "link",
           "label": "Link"

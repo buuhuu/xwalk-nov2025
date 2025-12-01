@@ -19,6 +19,15 @@
     ]
   },
   {
+    "id": "restricted-section",
+    "components": [
+      "text",
+      "button",
+      "title",
+      "columns"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
