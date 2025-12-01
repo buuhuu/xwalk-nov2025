@@ -64,6 +64,7 @@
         "title",
         "hero",
         "cards",
+        "restricted-cards",
         "columns",
         "fragment"
       ]
