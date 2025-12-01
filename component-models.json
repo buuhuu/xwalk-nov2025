@@ -172,8 +172,23 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
+      {
+        "component": "text",
+        "name": "aueLabel",
+        "label": "Label"
+      },
       {
         "component": "reference",
         "valueType": "string",
