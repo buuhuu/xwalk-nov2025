@@ -22,6 +22,11 @@
       "fields": [
         {
           "component": "text",
+          "name": "aueLabel",
+          "label": "Label"
+        },
+        {
+          "component": "text",
           "valueType": "number",
           "name": "columns",
           "value": "",
